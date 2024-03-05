@@ -4,7 +4,21 @@ import instagram from '../assets/socials/instagram.png';
 // import dribble from '../assets/socials/dribble.png';
 import email from '../assets/socials/sms.png';
 
+
+
 const Contact = () => {
+  function checkEmpty(element) {
+    if (element.value === '') {
+      alert('This field is required');
+    }
+  }
+  
+  function validateEmail(element) {
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(element.value)) {
+      alert('Invalid email address');
+    }
+  }
   return (
     <div className="px-7 md:px-10 my-10" id="contact">
       <div className="flex flex-col md:flex-row">
@@ -25,21 +39,21 @@ const Contact = () => {
           </div>
 
         </div>
-          
-          {/* form */}
-          <div className="md:w-1/2">
-            <p className="mt-16 text-white text-2x-1 mb-6">Contact me</p>
-            <form className="d-flex">
-              <input type="text" name="name" id="name" placeholder="Name: " className="bg-[#F5F5F5 bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded"></input>
-              <input type="email" name="email" id="email" placeholder="Email: " className="bg-[#F5F5F5 bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded my-3"></input>
 
-              <textarea name="message" id="message" placeholder="Message" className="bg-[#F5F5F5 bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded my-3"></textarea>
-              <button className="btn bg-primary py-2 px-12 text-white hover:bg-white hover:text-primary block-transition-all duration-500">Submit</button>
-            </form>
-          </div>
+        {/* form */}
+        <div className="md:w-1/2">
+          <p className="mt-16 text-white text-2x-1 mb-6">Contact me</p>
+          <form className="d-flex">
+            <input type="text" name="name" id="name" placeholder="Name: " required onBlur="checkEmpty(this)" className="bg-[#F5F5F5 bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded"></input>
+            <input type="email" name="email" id="email" placeholder="Email: " required onBlur="checkEmpty(this)" onChange="validateEmail(this)" className="bg-[#F5F5F5 bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded my-3"></input>
+            <textarea name="message" id="message" placeholder="Message" className="bg-[#F5F5F5 bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded my-3"></textarea>
+            <button className="btn bg-primary py-2 px-12 text-white hover:bg-white hover:text-primary block-transition-all duration-500">Submit</button>
+          </form>
+        </div>
       </div>
     </div>
   );
 };
 
 export default Contact;
+

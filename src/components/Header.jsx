@@ -10,7 +10,7 @@ const Header = () => {
     {name: "Contact", link:"contact"}
   ]
 
-  let [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false)
 
   return (
     <div className='w-full max-w-7x1'>
@@ -21,7 +21,11 @@ const Header = () => {
         </div>
 
         {/* Mobile Menu Icons */}
-        <div onClick={() => setOpen(!open)} className='w-7 h-7 right-8 top-6 cursor-pointer md:hidden text-white absolute'>
+        <div onClick={() =>{
+          console.log(open)
+          setOpen(!open)
+          console.log(open)
+          } } className='w-7 h-7 right-8 top-6 cursor-pointer md:hidden text-white absolute'>
           {
             open ? <XMarkIcon/> : <Bars3BottomRightIcon/>
           }
