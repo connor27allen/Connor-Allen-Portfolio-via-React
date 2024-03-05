@@ -3,13 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://connor27allen.github.io/Connor-Allen-Portfolio-via-React/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "git push heroku main"
+    "deploy": "gh-pages -d docs"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
