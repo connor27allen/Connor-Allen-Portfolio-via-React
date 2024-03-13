@@ -1,56 +1,63 @@
 import React from 'react';
 
-import screenshot_1 from '../assets/screenshot_1.png'
+import screenshot_1 from '../assets/freelancers.png'
+import screenshot_2 from '../assets/screenshot_1.png'
+import screenshot_3 from '../assets/flickfinder.png'
+import screenshot_4 from '../assets/texpress.png'
+import screenshot_5 from '../assets/ecommerce.png'
+import screenshot_6 from '../assets/sql.png'
+
+
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Project 1",
-      description: "flickFinder",
+      title: "FreeLancers",
+      description: "Freelance worker dashboard for clients to organize tasks and finances",
       photo: screenshot_1,
-      siteLink: "https://dann9109.github.io/movieapp/",
-      githubLink: "https://github.com/dann9109/movieapp"
+      siteLink: "https://salty-coast-36768-7c025fc4e535.herokuapp.com/profile",
+      githubLink: "https://github.com/dann9109/freeflow"
     },
     {
       id: 2,
-      title: "Project 2",
-      description: "Texpress",
-      photo: "https://via.placeholder.com/150",
-      siteLink: "https://pacific-plains-98540-116313d212c8.herokuapp.com/",
-      githubLink: "https://github.com/connor27allen/Texpress"
+      title: "Flavor Hub",
+      description: "Recipe sharing website",
+      photo: screenshot_2,
+      siteLink: "",
+      githubLink: "https://github.com/magellanrose/Recipe_Book_Project"
     },
         {
       id: 3,
-      title: "Project 3",
-      description: "JATE",
-      photo: "https://via.placeholder.com/150",
-      siteLink: "https://jate-5rv4.onrender.com/",
-      githubLink: "https://github.com/connor27allen/JATE"
+      title: "flickFinder",
+      description: "Movie search engine (includes original posters too!)",
+      photo: screenshot_3,
+      siteLink: "https://dann9109.github.io/movieapp/ ",
+      githubLink: "https://github.com/dann9109/movieapp"
     },
     {
       id: 4,
-      title: "Project 4",
-      description: "Day Planner",
-      photo: "https://via.placeholder.com/150",
-      siteLink: "https://connor27allen.github.io/Day_Planner_/",
-      githubLink: "https://github.com/connor27allen/Day_Planner_"
+      title: "Texpress",
+      description: "Encrypted blog application using MongoDB and bcrypt",
+      photo: screenshot_4,
+      siteLink: "https://pacific-plains-98540-116313d212c8.herokuapp.com/",
+      githubLink: "https://github.com/connor27allen/Texpress"
     },
     {
       id: 5,
-      title: "Project 5",
-      description: "Weather Dashboard",
-      photo: "https://via.placeholder.com/150",
-      siteLink: "https://connor27allen.github.io/Weather-Dashboard/",
-      githubLink: "https://github.com/connor27allen/Weather-Dashboard"
+      title: "E-commerce backend",
+      description: "Ecommerce backend system using sequelize and express",
+      photo: screenshot_5,
+      siteLink: "https://youtu.be/qddgMR2QeHg",
+      githubLink: "https://github.com/connor27allen/E-commerce-Backend-Database"
     },
     {
       id: 6,
-      title: "Project 6",
-      description: "JS Quiz",
-      photo: "https://via.placeholder.com/150",
-      siteLink: "https://connor27allen.github.io/JavaScript-Quiz/",
-      githubLink: "https://github.com/connor27allen/JavaScript-Quiz"
+      title: "Employee Tracker",
+      description: "Terminal SQL database for managing employees, departments, jobs, and salaries",
+      photo: screenshot_6,
+      siteLink: "https://youtu.be/wPaq92bAsE0",
+      githubLink: "https://github.com/connor27allen/Employee-Tracker"
     }
     // Add siteLink and githubLink for each project
   ];

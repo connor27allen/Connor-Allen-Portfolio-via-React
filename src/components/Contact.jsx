@@ -26,7 +26,7 @@ const Contact = () => {
         <div className="md:w-1/2">
           <h1 className="text-3x1 mt-5 text-primary font-semibold">Contact</h1>
 
-          <p className="text-white my-2 md:w-2/3 leading-[2]">Description</p>
+          {/* <p className="text-white my-2 md:w-2/3 leading-[2]">Description</p> */}
 
           {/* social icons */}
           <div className="flex">
