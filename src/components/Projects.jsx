@@ -14,7 +14,7 @@ const Projects = () => {
     {
       id: 1,
       title: "FreeLancers",
-      description: "Freelance worker dashboard for clients to organize tasks and finances",
+      description: "Freelance worker dashboard utilizing GraphQL and MongoDB for clients to organize tasks and finances",
       photo: screenshot_1,
       siteLink: "https://salty-coast-36768-7c025fc4e535.herokuapp.com/profile",
       githubLink: "https://github.com/dann9109/freeflow"
@@ -22,7 +22,7 @@ const Projects = () => {
     {
       id: 2,
       title: "Flavor Hub",
-      description: "Recipe sharing website",
+      description: "Encrypted recipe sharing website",
       photo: screenshot_2,
       siteLink: "",
       githubLink: "https://github.com/magellanrose/Recipe_Book_Project"
@@ -30,7 +30,7 @@ const Projects = () => {
         {
       id: 3,
       title: "flickFinder",
-      description: "Movie search engine (includes original posters too!)",
+      description: "Movie search engine using OMDB API (includes original posters too!)",
       photo: screenshot_3,
       siteLink: "https://dann9109.github.io/movieapp/ ",
       githubLink: "https://github.com/dann9109/movieapp"
@@ -38,7 +38,7 @@ const Projects = () => {
     {
       id: 4,
       title: "Texpress",
-      description: "Encrypted blog application using MongoDB and bcrypt",
+      description: "Encrypted blog application using MySQL and bcrypt",
       photo: screenshot_4,
       siteLink: "https://pacific-plains-98540-116313d212c8.herokuapp.com/",
       githubLink: "https://github.com/connor27allen/Texpress"
@@ -46,7 +46,7 @@ const Projects = () => {
     {
       id: 5,
       title: "E-commerce backend",
-      description: "Ecommerce backend system using sequelize and express",
+      description: "Ecommerce backend database using Sequelize and Express JS",
       photo: screenshot_5,
       siteLink: "https://youtu.be/qddgMR2QeHg",
       githubLink: "https://github.com/connor27allen/E-commerce-Backend-Database"
@@ -65,7 +65,7 @@ const Projects = () => {
   return (
     <div className="px-7 md:px-10 my-8" id="projects">
       <h1 className="text-3x1 mt-5 text-primary font-semibold">Featured Projects</h1>
-      <p className="text-white my-2 md:w-2/3 leading-[2]">Description</p>
+      <p className="text-white my-2 md:w-2/3 leading-[2]"></p>
       {/* featured projects */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 my-6 items-center justify-center">
         {
