@@ -3,9 +3,9 @@ import React from 'react';
 const About = () => {
   const skills= [
     {name: 'UI and UX Design', image:'/src/assets/icons/ruler-pen.png'},
-    {name: 'Web dev', image:'/src/assets/icons/code.png'},
-    {name: 'Mobile Dev', image:'/src/assets/icons/android.png'},
-    {name: 'Unit testing', image:'/src/assets/icons/web-scraping.png'},
+    {name: 'Server Side Development', image:'/src/assets/icons/code.png'},
+    {name: 'User Authentication', image:'/src/assets/icons/android.png'},
+    {name: 'API Development', image:'/src/assets/icons/web-scraping.png'},
   ]
   return (
     <div className="px-7 md:px-10 sm:-mt-24 pt-8" id="about">
