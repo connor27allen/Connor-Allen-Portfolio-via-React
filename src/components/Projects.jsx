@@ -24,7 +24,7 @@ const Projects = () => {
       title: "Flavor Hub",
       description: "Encrypted recipe sharing website",
       photo: screenshot_2,
-      siteLink: "",
+      siteLink: "https://infinite-journey-57628-3f2779f996f7.herokuapp.com/",
       githubLink: "https://github.com/magellanrose/Recipe_Book_Project"
     },
         {
