@@ -14,7 +14,7 @@ const Projects = () => {
     {
       id: 1,
       title: "FreeLancers",
-      description: "Freelance worker dashboard utilizing GraphQL and MongoDB for clients to organize tasks and finances",
+      description: "GraphQL, MongoDB, React, Express.js, Node.js, JSON Web Token, Heroku",
       photo: screenshot_1,
       siteLink: "https://salty-coast-36768-7c025fc4e535.herokuapp.com/profile",
       githubLink: "https://github.com/dann9109/freeflow"
@@ -22,7 +22,7 @@ const Projects = () => {
     {
       id: 2,
       title: "Flavor Hub",
-      description: "Encrypted recipe sharing website",
+      description: "MySQL, Express.js, Node.js, REST API Handlebars.js, Sequelize ORM, MVC structure, Heroku",
       photo: screenshot_2,
       siteLink: "https://infinite-journey-57628-3f2779f996f7.herokuapp.com/",
       githubLink: "https://github.com/magellanrose/Recipe_Book_Project"
@@ -30,7 +30,7 @@ const Projects = () => {
         {
       id: 3,
       title: "flickFinder",
-      description: "Movie search engine using OMDB API (includes original posters too!)",
+      description: "Server-side APIs, JavaScript, Bootstrap",
       photo: screenshot_3,
       siteLink: "https://dann9109.github.io/movieapp/ ",
       githubLink: "https://github.com/dann9109/movieapp"
@@ -38,7 +38,7 @@ const Projects = () => {
     {
       id: 4,
       title: "Texpress",
-      description: "Encrypted blog application using MySQL and bcrypt",
+      description: "MySQL2, Sequelize, bcrypt, Express.js, Handlebars.js, MVC structure",
       photo: screenshot_4,
       siteLink: "https://pacific-plains-98540-116313d212c8.herokuapp.com/",
       githubLink: "https://github.com/connor27allen/Texpress"
@@ -46,7 +46,7 @@ const Projects = () => {
     {
       id: 5,
       title: "E-commerce backend",
-      description: "Ecommerce backend database using Sequelize and Express JS",
+      description: "MySQL2, Sequelize, dotenv package, Insomnia, Object-Relational Mapping (ORM)",
       photo: screenshot_5,
       siteLink: "https://youtu.be/qddgMR2QeHg",
       githubLink: "https://github.com/connor27allen/E-commerce-Backend-Database"
@@ -54,7 +54,7 @@ const Projects = () => {
     {
       id: 6,
       title: "Employee Tracker",
-      description: "Terminal SQL database for managing employees, departments, jobs, and salaries",
+      description: "MySQL2, Node.js, Inquirer package, Content Management System (CMS)",
       photo: screenshot_6,
       siteLink: "https://youtu.be/wPaq92bAsE0",
       githubLink: "https://github.com/connor27allen/Employee-Tracker"
