@@ -22,7 +22,7 @@ const Projects = () => {
     {
       id: 2,
       title: "Flavor Hub",
-      description: "MySQL, Express.js, Node.js, REST API Handlebars.js, Sequelize ORM, MVC structure, Heroku",
+      description: "MySQL, Express.js, Node.js, REST API Handlebars.js, Sequelize ORM, MVC structure, VS Code Live Share, Heroku",
       photo: screenshot_2,
       siteLink: "https://infinite-journey-57628-3f2779f996f7.herokuapp.com/",
       githubLink: "https://github.com/magellanrose/Recipe_Book_Project"
