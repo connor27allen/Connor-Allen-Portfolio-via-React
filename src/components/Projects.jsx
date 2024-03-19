@@ -16,7 +16,7 @@ const Projects = () => {
       title: "FreeLancers",
       description: "GraphQL, MongoDB, React, Express.js, Node.js, JSON Web Token, Heroku",
       photo: screenshot_1,
-      siteLink: "https://salty-coast-36768-7c025fc4e535.herokuapp.com/profile",
+      siteLink: "https://salty-coast-36768-7c025fc4e535.herokuapp.com/",
       githubLink: "https://github.com/dann9109/freeflow"
     },
     {
