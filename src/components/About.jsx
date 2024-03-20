@@ -12,7 +12,7 @@ const About = () => {
 
       {/* <h1 className="text-3x1 mt-5 text-primary font-semibold">About me</h1> */}
 
-      <p className="text-white my-4 md:w-2/3 leading-[2]">3 years of frontend  development experience, 1 year experience as a blog writer for a software startup formerly known as Prajix, and recent graduate of Rutgers University Full Stack Web Development Bootcamp.{" "}</p>
+      <p className="text-white my-4 md:w-2/3 leading-[2]">3 years of frontend  development experience through Boston University courses, resources like Stack Overflow, Github, and freeCodeCamp, and 1 year experience as a blog writer for a software startup formerly known as Prajix. Recent graduate of Rutgers University Full Stack Web Development Bootcamp.{" "}</p>
 
       {/* experiences */}
       <div className="md:flex items-center my-7">

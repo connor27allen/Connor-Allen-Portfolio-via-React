@@ -70,7 +70,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 my-6 items-center justify-center">
         {
           projects.map((project, index) => (
-            <div key={index} className="flex flex-col shadow-sm md:w-[343px] bg-[#31313f] rounded">
+            <div key={index} className="flex flex-col shadow-sm md:w-[343px] bg-[#31313f] rounded p-2">
               <a href={project.photo} className="mb-4">
                 {/* define image sizes */}
                 <img className="" src={project.photo} alt="" />
@@ -79,7 +79,7 @@ const Projects = () => {
               <p className="text-white mt-1">{project.description}</p>
               {/* buttons */}
               <div className="mt-5">
-                <a href={project.siteLink} className="btn bg-primary py-2 text-white rounded hover:bg-white hover:text-primary transition-all duration-500">Site Link</a>
+                <a href={project.siteLink} className="btn bg-primary px-2 py-2 text-white rounded hover:bg-white hover:text-primary transition-all duration-500">Site Link</a>
                 <a href={project.githubLink} className="btn outline px-6 py-1.5 rounded border-none text-white ml-5">Github Repo</a>
               </div>
             </div>

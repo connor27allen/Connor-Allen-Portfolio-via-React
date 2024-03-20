@@ -1,4 +1,5 @@
 import React from 'react';
+
 import heroImg from '../assets/img2.png';
 
 const Home = () => {
@@ -9,12 +10,12 @@ const Home = () => {
                 <div className="text-white" style={{ paddingLeft: '30px'}}>
                     <h6 className="text-3x1 mt-12">Hello, I'm </h6>
                     <h1 className="font-semibold text-3x1 md:text-5x1 my-4">Connor</h1>
-                    <p className="md:w-96">Full Stack Dev</p>
+                    <p className="md:w-96">Full Stack Developer</p>
                     
                     {/* buttons */}
                     <div className="mt-5">
-                        <button className="btn bg-primary py-2 text-white rounded hover:bg-white hover:text-primary transition-all duration-500">About me</button>
-                        <button className="btn outline px-6 py-1.5 rounded border-none text-white ml-5">Projects</button>
+                        <button className="btn bg-primary px-4 py-2 text-white rounded hover:bg-white hover:text-primary transition-all duration-500">About me</button>
+                        {/* <button className="btn outline px-6 py-1.5 rounded border-none text-white ml-5">Projects</button> */}
                     </div>
                 </div>
 
