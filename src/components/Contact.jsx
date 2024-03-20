@@ -44,8 +44,8 @@ const Contact = () => {
         <div className="md:w-1/2">
           <p className="mt-16 text-white text-2x-1 mb-6">Contact me</p>
           <form className="d-flex">
-            <input type="text" name="name" id="name" placeholder="Name: " required onBlur="checkEmpty(this)" className="bg-[#F5F5F5 bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded"></input>
-            <input type="email" name="email" id="email" placeholder="Email: " required onBlur="checkEmpty(this)" onChange="validateEmail(this)" className="bg-[#F5F5F5 bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded my-3"></input>
+            <input type="text" name="name" id="name" placeholder="Name: " required onBlur={checkEmpty} className="bg-[#F5F5F5 bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded"></input>
+            <input type="email" name="email" id="email" placeholder="Email: " required onBlur={checkEmpty} onChange={validateEmail} className="bg-[#F5F5F5 bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded my-3"></input>
             <textarea name="message" id="message" placeholder="Message" className="bg-[#F5F5F5 bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded my-3"></textarea>
             <button className="btn bg-primary py-2 px-12 text-white hover:bg-white hover:text-primary block-transition-all duration-500">Submit</button>
           </form>
