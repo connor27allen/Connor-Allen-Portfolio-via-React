@@ -42,7 +42,7 @@ const Contact = () => {
 
         {/* form */}
         <div className="md:w-1/2">
-          <p className="mt-16 text-white text-2x-1 mb-6">Contact me</p>
+          <p className="mt-16 text-white text-2x-1 mb-6 flex flex-col items-center">Contact me</p>
           <form className="d-flex">
             <input type="text" name="name" id="name" placeholder="Name: " required onBlur={checkEmpty} className="bg-[#F5F5F5 bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded"></input>
             <input type="email" name="email" id="email" placeholder="Email: " required onBlur={checkEmpty} onChange={validateEmail} className="bg-[#F5F5F5 bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded my-3"></input>
