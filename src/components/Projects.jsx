@@ -54,7 +54,7 @@ const Projects = () => {
     {
       id: 6,
       title: "Employee Tracker",
-      description: "MySQL2, Node.js, Inquirer package, Content Management System (CMS)",
+      description: "AWS, MySQL2, Node.js, Inquirer package, Content Management System (CMS)",
       photo: screenshot_6,
       siteLink: "https://youtu.be/wPaq92bAsE0",
       githubLink: "https://github.com/connor27allen/Employee-Tracker"
