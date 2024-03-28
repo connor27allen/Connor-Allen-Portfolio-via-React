@@ -46,7 +46,7 @@ const Projects = () => {
     {
       id: 5,
       title: "E-commerce backend",
-      description: "MySQL2, Sequelize, dotenv package, Insomnia, Object-Relational Mapping (ORM)",
+      description: "MySQL2, Sequelize, Express.js, Node.js, REST APIs, dotenv package, Insomnia, Object-Relational Mapping (ORM)",
       photo: screenshot_5,
       siteLink: "https://youtu.be/qddgMR2QeHg",
       githubLink: "https://github.com/connor27allen/E-commerce-Backend-Database"
